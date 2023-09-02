@@ -26,12 +26,12 @@ elif turno == "N":
 else:
   print("Valor inválido")
 
-#3. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+#3. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido
 
-nota = -1 #definir antes de entrar no while
+nota = -1 #SEMPRE definir antes de entrar no while um valor diferente do erro esperado 
 while nota < 0 or nota > 10:
   nota = int (input("Digite uma nota entre 0 e 10" '\n'))
   if nota < 0 or nota > 10:
     print("Valor inválido")
 
-print("saiu")
+print("saiu") #testando a finalização do programa
